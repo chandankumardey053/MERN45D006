@@ -1,0 +1,78 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background: linear-gradient(to bottom, #fc03b5, #0909fb);
+}
+
+.login-gr1 h1{
+    margin-top: 50px;
+    /* margin-left: 98px; */
+    display: flex;
+    justify-content: center;
+}
+
+.login{
+    border: 2px solid none;
+    border-radius: 3px;
+    width: 300px;
+    height: 500px;
+    font-size: 13px;  
+    background-color:white;
+}
+
+.login .login-gr{
+    display: flex;
+    justify-content: center;
+}
+
+.login-gr input{
+    padding: 10px 35px ;
+    background-color: rgb(174, 167, 167);
+    border-radius: 3px;
+    border: none;
+}
+
+
+.button{
+    background-color: rgb(246, 3, 201);
+    border-radius: 3px;
+    font-size: 11px;
+    padding: 15px 100px 15px 100px;
+    border: none;
+    margin-left: 33px;
+    cursor: progress;
+    color: white;
+    margin-top: 30px;
+}
+
+.button:focus{
+    background-color: rgb(87, 35, 255);
+}
+.button:hover{
+    color: black;
+}
+
+.site{
+    border-radius: 3px;
+    /* margin-left: 40px; */
+    /* display: flex; */
+    /* justify-content: center; */
+}
+button{
+    padding: 3px 10px 3px 10px;
+    border-color: rgb(116, 119, 121);
+}
+.p2{
+    display: flex;
+    justify-content: center;
+}
+.login-gr2 p input{
+    margin-left: 32px;
+
+}
+.login-gr p{
+    margin-top: 90px;
+}
