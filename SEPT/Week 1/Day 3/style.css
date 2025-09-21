@@ -1,0 +1,55 @@
+/* Selector(Types)
+1.simple selector
+2.Combinator selector
+3.Pseudo class selector
+4.Attribute selector 
+*/
+/* 
+Simple Selector(Types)
+1.id selector
+2.class name selector
+3.tag name selector
+4.universal selector
+5.group name selector
+*/
+/* id name selector */
+h3{
+    background-color: rgba(0, 255, 255, 0.973);
+}
+#paragraph{
+    background-color: blanchedalmond;
+}
+/* class name selector */
+.para{
+    background-color:greenyellow;
+}
+*{
+    font-size: 30px;
+}
+h3,h5,h6{
+    color: green;
+}
+/* combinator selector
+1.descedent selector
+2.direct child selector
+3.adjacent sibling selector
+4.general sibling selector
+*/
+
+/* all direct with indirect child */
+/* #parent p{
+       background-color: greenyellow;
+} */
+
+/* only direct child */
+/* #parent>p{
+       background-color: greenyellow;
+} */
+
+/* #parent+p{
+    background-color:blue;
+} */
+
+#parent~p{
+    background-color: burlywood;
+}
