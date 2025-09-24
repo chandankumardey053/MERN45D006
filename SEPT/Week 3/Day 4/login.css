@@ -40,7 +40,7 @@ body {
   transform: scale(1.05);
 }
 
-.frosted-glass {
+.container {
   backdrop-filter: blur(10px) saturate(180%);
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 20px;
