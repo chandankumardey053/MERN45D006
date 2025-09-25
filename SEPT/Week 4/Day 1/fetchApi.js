@@ -13,7 +13,7 @@ getData(1,()=>getData(2,()=>getData(3)))
 
 const promise = new Promise((resolve, reject) => {
     setTimeout(()=>{
-        reject("lksjadk")
+        reject("Rejected file")
     },2000)
 })
 
